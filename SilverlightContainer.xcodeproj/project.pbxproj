@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5249D6BC21973EE00025BA63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5249D6BB21973EE00025BA63 /* AppDelegate.swift */; };
+		5249D6BE21973EE00025BA63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5249D6BD21973EE00025BA63 /* ViewController.swift */; };
+		5249D6C021973EE30025BA63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5249D6BF21973EE30025BA63 /* Assets.xcassets */; };
+		5249D6C321973EE30025BA63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5249D6C121973EE30025BA63 /* Main.storyboard */; };
+		5249D6CF21973EE30025BA63 /* SilverlightContainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5249D6CE21973EE30025BA63 /* SilverlightContainerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5249D6CB21973EE30025BA63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5249D6B021973EE00025BA63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5249D6B721973EE00025BA63;
+			remoteInfo = SilverlightContainer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5249D6B821973EE00025BA63 /* SilverlightContainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SilverlightContainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5249D6BB21973EE00025BA63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5249D6BD21973EE00025BA63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5249D6BF21973EE30025BA63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5249D6C221973EE30025BA63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5249D6C421973EE30025BA63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5249D6C521973EE30025BA63 /* SilverlightContainer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SilverlightContainer.entitlements; sourceTree = "<group>"; };
+		5249D6CA21973EE30025BA63 /* SilverlightContainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilverlightContainerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5249D6CE21973EE30025BA63 /* SilverlightContainerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilverlightContainerTests.swift; sourceTree = "<group>"; };
+		5249D6D021973EE30025BA63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5249D6B521973EE00025BA63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5249D6C721973EE30025BA63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5249D6AF21973EE00025BA63 = {
+			isa = PBXGroup;
+			children = (
+				5249D6BA21973EE00025BA63 /* SilverlightContainer */,
+				5249D6CD21973EE30025BA63 /* SilverlightContainerTests */,
+				5249D6B921973EE00025BA63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5249D6B921973EE00025BA63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5249D6B821973EE00025BA63 /* SilverlightContainer.app */,
+				5249D6CA21973EE30025BA63 /* SilverlightContainerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5249D6BA21973EE00025BA63 /* SilverlightContainer */ = {
+			isa = PBXGroup;
+			children = (
+				5249D6BB21973EE00025BA63 /* AppDelegate.swift */,
+				5249D6BD21973EE00025BA63 /* ViewController.swift */,
+				5249D6BF21973EE30025BA63 /* Assets.xcassets */,
+				5249D6C121973EE30025BA63 /* Main.storyboard */,
+				5249D6C421973EE30025BA63 /* Info.plist */,
+				5249D6C521973EE30025BA63 /* SilverlightContainer.entitlements */,
+			);
+			path = SilverlightContainer;
+			sourceTree = "<group>";
+		};
+		5249D6CD21973EE30025BA63 /* SilverlightContainerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5249D6CE21973EE30025BA63 /* SilverlightContainerTests.swift */,
+				5249D6D021973EE30025BA63 /* Info.plist */,
+			);
+			path = SilverlightContainerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5249D6B721973EE00025BA63 /* SilverlightContainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5249D6D321973EE30025BA63 /* Build configuration list for PBXNativeTarget "SilverlightContainer" */;
+			buildPhases = (
+				5249D6B421973EE00025BA63 /* Sources */,
+				5249D6B521973EE00025BA63 /* Frameworks */,
+				5249D6B621973EE00025BA63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SilverlightContainer;
+			productName = SilverlightContainer;
+			productReference = 5249D6B821973EE00025BA63 /* SilverlightContainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5249D6C921973EE30025BA63 /* SilverlightContainerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5249D6D621973EE30025BA63 /* Build configuration list for PBXNativeTarget "SilverlightContainerTests" */;
+			buildPhases = (
+				5249D6C621973EE30025BA63 /* Sources */,
+				5249D6C721973EE30025BA63 /* Frameworks */,
+				5249D6C821973EE30025BA63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5249D6CC21973EE30025BA63 /* PBXTargetDependency */,
+			);
+			name = SilverlightContainerTests;
+			productName = SilverlightContainerTests;
+			productReference = 5249D6CA21973EE30025BA63 /* SilverlightContainerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5249D6B021973EE00025BA63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Paolo Carollo";
+				TargetAttributes = {
+					5249D6B721973EE00025BA63 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5249D6C921973EE30025BA63 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5249D6B721973EE00025BA63;
+					};
+				};
+			};
+			buildConfigurationList = 5249D6B321973EE00025BA63 /* Build configuration list for PBXProject "SilverlightContainer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5249D6AF21973EE00025BA63;
+			productRefGroup = 5249D6B921973EE00025BA63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5249D6B721973EE00025BA63 /* SilverlightContainer */,
+				5249D6C921973EE30025BA63 /* SilverlightContainerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5249D6B621973EE00025BA63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5249D6C021973EE30025BA63 /* Assets.xcassets in Resources */,
+				5249D6C321973EE30025BA63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5249D6C821973EE30025BA63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5249D6B421973EE00025BA63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5249D6BE21973EE00025BA63 /* ViewController.swift in Sources */,
+				5249D6BC21973EE00025BA63 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5249D6C621973EE30025BA63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5249D6CF21973EE30025BA63 /* SilverlightContainerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5249D6CC21973EE30025BA63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5249D6B721973EE00025BA63 /* SilverlightContainer */;
+			targetProxy = 5249D6CB21973EE30025BA63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5249D6C121973EE30025BA63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5249D6C221973EE30025BA63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5249D6D121973EE30025BA63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5249D6D221973EE30025BA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5249D6D421973EE30025BA63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SilverlightContainer/SilverlightContainer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P4SCANVHRT;
+				INFOPLIST_FILE = SilverlightContainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paolocarollo.SilverlightContainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		5249D6D521973EE30025BA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SilverlightContainer/SilverlightContainer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P4SCANVHRT;
+				INFOPLIST_FILE = SilverlightContainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paolocarollo.SilverlightContainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		5249D6D721973EE30025BA63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P4SCANVHRT;
+				INFOPLIST_FILE = SilverlightContainerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paolocarollo.SilverlightContainerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SilverlightContainer.app/Contents/MacOS/SilverlightContainer";
+			};
+			name = Debug;
+		};
+		5249D6D821973EE30025BA63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P4SCANVHRT;
+				INFOPLIST_FILE = SilverlightContainerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paolocarollo.SilverlightContainerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SilverlightContainer.app/Contents/MacOS/SilverlightContainer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5249D6B321973EE00025BA63 /* Build configuration list for PBXProject "SilverlightContainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5249D6D121973EE30025BA63 /* Debug */,
+				5249D6D221973EE30025BA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5249D6D321973EE30025BA63 /* Build configuration list for PBXNativeTarget "SilverlightContainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5249D6D421973EE30025BA63 /* Debug */,
+				5249D6D521973EE30025BA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5249D6D621973EE30025BA63 /* Build configuration list for PBXNativeTarget "SilverlightContainerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5249D6D721973EE30025BA63 /* Debug */,
+				5249D6D821973EE30025BA63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5249D6B021973EE00025BA63 /* Project object */;
+}
